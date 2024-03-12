@@ -1,0 +1,7 @@
+server.port={SERVER_PORT}
+server.charset=UTF-8
+
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+spring.datasource.url=jdbc:mariadb://{DBSERVER_HOST}:{PORT}/{DBNAME}?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+spring.datasource.username={USERNAME}
+spring.datasource.password={PASSWORD}
