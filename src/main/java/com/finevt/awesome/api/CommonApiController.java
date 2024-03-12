@@ -50,7 +50,7 @@ public class CommonApiController {
 
 			JSONObject json = new JSONObject();
 			json.put("status", true);
-			json.put("result", result.toString());
+			json.put("result", result);
 			
 			return new ResponseEntity<>(json, HttpStatus.OK);
 		} catch(Exception e) {
