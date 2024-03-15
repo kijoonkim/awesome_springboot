@@ -1,5 +1,4 @@
-# voicechatgpt_server
-Awesome API Server(Spring Boot)
+# Awesome API Server(Spring Boot)
 
 ## Installation
 ./src/resources/application.properties_example 파일을 복사하여 같은 위치에 application.properties 파일을 생성한다.   
